@@ -55,7 +55,7 @@ def convert_annotation(year, image_id, list_file):
         list_file.write(" " + ",".join([str(a) for a in b]) + ',' + str(cls_id))
 
 
-if __name__ == "__main__":
+def start_creating():
     random.seed(0)
     if annotation_mode == 0 or annotation_mode == 1:
         print("Generate txt in ImageSets.")
