@@ -32,7 +32,7 @@ from utils.utils_fit import fit_one_epoch
    但是参数本身并不是绝对的，比如随着batch的增大学习率也可以增大，效果也会好一些；过深的网络不要用太大的学习率等等。
    这些都是经验上，只能靠各位同学多查询资料和自己试试了。
 '''
-if __name__ == "__main__":
+def start_triaing():
     # -------------------------------#
     #   是否使用Cuda
     #   没有GPU可以设置成False
